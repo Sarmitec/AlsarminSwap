@@ -1,0 +1,9 @@
+Options -Indexes
+
+<FilesMatch "^(config\.php|db\.php|xlsx\.php|auth\.php)$">
+    Require all denied
+</FilesMatch>
+
+<FilesMatch "\.(sql|md|log|bak|ini|lock)$">
+    Require all denied
+</FilesMatch>
